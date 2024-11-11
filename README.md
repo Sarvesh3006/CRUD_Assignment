@@ -22,9 +22,21 @@ This is a web application developed in PHP and MySQL for managing customer trans
    ```bash
    https://github.com/Sarvesh3006/CRUD_Assignment.git
 
-Usage
+   
+Configure Database Connection
+Open dbcon.php.
 
-### Add a New Transaction:
+Replace database credentials with your MySQL username, password, and the new database name:
+$connection = mysqli_connect("localhost", "your_username", "your_password", "customer_management_db");
+
+Launch the Application
+Run your local server (e.g., XAMPP/WAMP).
+Open a browser and visit http://localhost/customer-transaction-management.
+
+
+### Usage
+
+Add a New Transaction:
 
 Click the Add Customer button.
 Enter the required details and choose whether to include GST.
