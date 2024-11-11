@@ -31,7 +31,6 @@ $connection = mysqli_connect("localhost", "your_username", "your_password", "cus
 
 Launch the Application
 Run your local server (e.g., XAMPP/WAMP).
-Open a browser and visit http://localhost/customer-transaction-management.
 
 
 ### Usage
