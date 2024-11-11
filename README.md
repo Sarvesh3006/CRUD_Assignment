@@ -23,7 +23,8 @@ This is a web application developed in PHP and MySQL for managing customer trans
    https://github.com/Sarvesh3006/CRUD_Assignment.git
 
 Usage
-Add a New Transaction:
+
+### Add a New Transaction:
 
 Click the Add Customer button.
 Enter the required details and choose whether to include GST.
