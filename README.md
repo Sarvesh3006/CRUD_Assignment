@@ -20,6 +20,7 @@ This is a web application developed in PHP and MySQL for managing customer trans
 
 1. **Clone the Repository**:
    ```bash
+   https://github.com/Sarvesh3006/CRUD_Assignment.git
 
 Usage
 Add a New Transaction:
@@ -41,20 +42,7 @@ insert_data.php: Handles insertion of new customer transaction records.
 update_page_1.php: Enables editing of customer transaction data.
 delete_page.php: Deletes selected customer records.
 JavaScript for GST Calculation
-The JavaScript function updatePayableAmount() automatically calculates the total payable amount based on the selected GST option. The payable amount field updates dynamically when the total amount or GST selection is changed.
 
-javascript
-Copy code
-function updatePayableAmount() {
-    const totalAmount = parseFloat(totalAmountField.value) || 0;
-    let payableAmount = totalAmount;
-
-    if (gstYesRadio.checked) {
-        payableAmount += totalAmount * 0.18;
-    }
-
-    payableAmountField.value = payableAmount.toFixed(2);
-}
 Troubleshooting
 Ensure your database connection in dbcon.php is configured correctly.
 Make sure XAMPP or WAMP is running if testing locally.
